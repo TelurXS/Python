@@ -1,6 +1,5 @@
 import tkinter as tk
 import tkinter.ttk as ttk
-import tkinter.messagebox as messagebox
 from components.VerticalScrolledFrame import VerticalScrolledFrame
 from components.AddWindow import AddWindow
 from components.EditWindow import EditWindow

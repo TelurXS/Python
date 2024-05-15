@@ -24,10 +24,10 @@ class AddWindow():
         self.__window.title("Add Record")
         self.__window.geometry('300x460')
         self.__window.grab_set()
-        self.__window.resizable(False, False)
+        self.__window.resizable(True, False)
 
-        self.__window.columnconfigure(0, minsize=70)
-        self.__window.columnconfigure(1, minsize=210)
+        self.__window.grid_columnconfigure(0, weight=1, minsize=80)
+        self.__window.grid_columnconfigure(1, weight=2)
 
         self.__number_pattern = re.compile(r"^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$")
 

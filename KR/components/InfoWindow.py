@@ -18,7 +18,7 @@ class InfoWindow():
         self.__window.grab_set()
         self.__window.resizable(False, False)
 
-        tk.Label(self.__window, text="""Program Name: Contact Saver""", justify=tk.LEFT, font=FONT_LG).pack(fill=tk.X, pady=5)
+        tk.Label(self.__window, text="""Program Name: Contacts""", justify=tk.LEFT, font=FONT_LG).pack(fill=tk.X, pady=5)
         tk.Label(self.__window, text="""The Contact Saver program is a simple application designed to help users manage their contacts efficiently. It allows users to store contact information such as names, phone numbers, emails, and addresses in a structured manner.""", justify=tk.LEFT, font=FONT_MD, wraplength=600).pack(fill=tk.X, pady=5)
         tk.Label(self.__window, text="""Key Features:
 Add Contact: Users can easily add new contacts by providing necessary details like name, phone number, email, and address.
